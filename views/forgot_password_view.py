@@ -47,7 +47,7 @@ class ForgotPasswordView(ctk.CTkFrame):
     def _build_lookup_ui(self):
         self._clear()
 
-        ctk.CTkLabel(self, text="Forgot Password", font=("Arial", 28, "bold"),
+        ctk.CTkLabel(self, text="Forgot Your Password", font=("Arial", 28, "bold"),
                      text_color="#713f19").pack(pady=30)
 
         self.mobile_entry = ThemedEntry(self, width=250)
